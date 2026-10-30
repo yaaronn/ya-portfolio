@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm";
 
 const projects = [
   {
@@ -225,34 +226,41 @@ export default function Home() {
         </div>
       </section>
 
+
       <section className="contact-section" id="contact">
         <div className="container contact-inner">
           <div className="section-label">04 / GET IN TOUCH</div>
+
           <h2>
             Have an idea?
             <br />
             Let&apos;s build <span>something great.</span>
           </h2>
+
           <p>
             Open to meaningful projects, collaborations, and software
             engineering opportunities.
           </p>
+
           <a
-            className="button button-primary"
+            className="button button-secondary"
             href="https://github.com/yaaronn"
             target="_blank"
             rel="noreferrer"
-          >
+         >
             Connect on GitHub <span>↗</span>
           </a>
+
+          <ContactForm />
         </div>
       </section>
+
 
       <footer className="footer container">
         <a className="logo" href="#home">YA<span>.</span></a>
         <p>Designed with intention. Built with code.</p>
         <a href="#home">Back to top ↑</a>
-        <span className="copyright">© {new Date().getFullYear()} YA</span>
+        <span className="copyright">© 2026 YA</span>
       </footer>
     </main>
   );

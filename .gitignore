@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+# Local admin utility
+reset-admin-hash.cjs
+
+# Environment variables
+.env*
+!.env.example
+# Local AI development tools
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
+
+# Local admin utility
+reset-admin-hash.cjs
